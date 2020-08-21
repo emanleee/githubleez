@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab06 課表</title>
+    
+    <style>
+        span {
+            font-size: 20px;
+            color: darkorchid
+        }
+
+        table,
+        td,
+        th.italic {
+            /* font-style: italic; */
+            border-radius: 10px;
+            font-family: 標楷體;
+        }
+
+        table {
+            width: 400px;
+            height: 650px;
+            /* margin-left: auto;
+            margin-right: auto; */
+            border: 4px solid rgb(224, 230, 164);
+            background-color: rgb(174, 172, 211)
+        }
+
+        tr {
+            background-color: rgb(203, 241, 215)
+        }
+
+        td:hover {
+            background-color: rgb(151, 215, 240);
+            text-shadow: 10px 0px 5px rgb(136, 231, 80)
+        }
+
+        body {
+            /* background: url(image/cat4.jpg) no-repeat right fixed; */
+            background-color: rgb(202, 238, 236)
+        }
+
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        header {
+            padding: 2rem;
+            grid-column: 1 / 4;
+            background-color: rgb(53, 89, 155);
+            color: rgb(213, 220, 231);
+            font-weight: 900;
+
+        }
+
+        .left-side {
+            grid-column: 1/ 2;
+        }
+
+        main {
+            grid-column: 2 /3;
+        }
+
+        .right-side {
+            grid-column: 3 / 4;
+        }
+
+        footer {
+            grid-column: 2 / 4;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <header align="center">逢甲大學課程檢索系統</header>
+        <div class="left-side blue section" contenteditable>
+            <br>關注清單:李易霖</br>
+            <table border="2">
+                <caption>109/上學期</caption>
+                <tr>
+                    <th> </th>
+                    <th>星期一</th>
+                    <th>星期二</th>
+                    <th>星期三</th>
+                    <th>星期四</th>
+                    <th>星期五</th>
+                </tr>
+                <tr>
+                    <td>09:10</td>
+                    <td>python 基礎程式設計</td>
+                    <td>Web 基礎程式設計</td>
+                    <td>軟體工程專題</td>
+                    <td>python 基礎程式設計</td>
+                    <td>Web 基礎程式設計</td>
+                </tr>
+                <tr>
+                    <td>10:10</td>
+                    <td>python 基礎程式設計</td>
+                    <td>Web 基礎程式設計</td>
+                    <td>軟體工程專題</td>
+                    <td>python 基礎程式設計</td>
+                    <td>Web 基礎程式設計</td>
+                </tr>
+                <tr>
+                    <td>11:10</td>
+                    <td>python 基礎程式設計</td>
+                    <td>Web 基礎程式設計</td>
+                    <td>軟體工程專題</td>
+                    <td>python 基礎程式設計</td>
+                    <td>Web 基礎程式設計</td>
+                </tr>
+                <tr>
+                    <td>12:10</td>
+                    <td colspan="5" align="center">午休</td>
+
+                </tr>
+                <tr>
+                    <td>13:10</td>
+                    <td>python 基礎程式設計</td>
+                    <td>Web 基礎程式設計</td>
+                    <td>資訊概論</td>
+                    <td>python 基礎程式設計</td>
+                    <td>Web 基礎程式設計</td>
+                </tr>
+                <tr>
+                    <td>14:10</td>
+                    <td>python 基礎程式設計</td>
+                    <td>Web 基礎程式設計</td>
+                    <td>資訊概論</td>
+                    <td>python 基礎程式設計</td>
+                    <td>Web 基礎程式設計</td>
+                </tr>
+                <tr>
+                    <td>15:10</td>
+                    <td>python 基礎程式設計</td>
+                    <td>Web 基礎程式設計</td>
+                    <td>資訊概論</td>
+                    <td>python 基礎程式設計</td>
+                    <td>Web 基礎程式設計</td>
+                </tr>
+                <tr>
+                    <td>16:10</td>
+                    <td colspan="5" align="center">回家了</td>
+                </tr>
+            </table>
+        </div>
+        <main class="section coral" contenteditable><img src="image/555.jpg" alt="555" height="600px"> </main>
+        <div class="right-side yellow section" contenteditable><img src="image/cat3.jpg" alt="cat" height="700px"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer class="green section" align="center">
+            <hr>哈哈哈哈哈哈哈哈哈哈</hr>
+        </footer>
+    </div>
+</body>
+
+</html>
